@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Ripple Coffee Roasters"
+    return "Ripple Coffee Roasters สาขา 2"
 
 if __name__ == "__main__":
     app.run(debug=True)
